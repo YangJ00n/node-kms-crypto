@@ -1,0 +1,27 @@
+{
+  "name": "node-kms-crypto",
+  "version": "1.0.0",
+  "description": "Encrypting and Decrypting using AWS Key Management Service(KMS) in Node.js 🔐",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YangJ00n/node-kms-crypto.git"
+  },
+  "author": "YangJ00n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YangJ00n/node-kms-crypto/issues"
+  },
+  "homepage": "https://github.com/YangJ00n/node-kms-crypto#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1092.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
